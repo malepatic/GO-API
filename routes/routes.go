@@ -11,5 +11,6 @@ func RegisterRoutes(r *gin.Engine) {
 	{
 		api.POST("/register", handlers.Register)
 		api.GET("/login", handlers.Login)
+		api.POST("")
 	}
 }
